@@ -18,7 +18,7 @@ struct CustomListRowView: View {
     var body: some View {
         LabeledContent {
             // Content
-            Text(rowContent)
+            Text(rowLabel)
             .foregroundColor(.primary)
             .fontWeight(.heavy)
         } label: {
@@ -32,7 +32,7 @@ struct CustomListRowView: View {
                       .foregroundColor(.white)
                       .fontWeight(.semibold)
                 }
-                Text(rowIcon)
+                Text(rowContent)
             }
             
         }

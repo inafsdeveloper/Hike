@@ -69,6 +69,41 @@ struct SettingsView: View {
 //                LabeledContent("Application", value: "Hike")
                 
                 // 2. Advanced Labeled Content
+                CustomListRowView(
+                    rowLabel: "Application",
+                    rowIcon: "apps.iphone",
+                    rowContent: "Hike",
+                    rowTintColor: .blue)
+                
+                CustomListRowView(
+                    rowLabel: "Compatibility",
+                    rowIcon: "info.circle",
+                    rowContent: "iOs, iPads",
+                    rowTintColor: .red)
+                
+                CustomListRowView(
+                    rowLabel: "Technology",
+                    rowIcon: "swift",
+                    rowContent: "swift",
+                    rowTintColor: .orange)
+                
+                CustomListRowView(
+                    rowLabel: "Version",
+                    rowIcon: "gear",
+                    rowContent: "1.0",
+                    rowTintColor: .purple)
+                
+                CustomListRowView(
+                    rowLabel: "Developer",
+                    rowIcon: "ellipsis.curlybraces",
+                    rowContent: "John Doe",
+                    rowTintColor: .mint)
+                
+                CustomListRowView(
+                    rowLabel: "Website",
+                    rowIcon: "globe",
+                    rowContent: "https://credo.academy",
+                    rowTintColor: .indigo)
                 
             }
             
