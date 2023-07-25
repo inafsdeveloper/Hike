@@ -14,6 +14,9 @@
 		68D953182A7055F50096D15A /* HikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953172A7055F50096D15A /* HikeTests.swift */; };
 		68D953222A7055F50096D15A /* HikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953212A7055F50096D15A /* HikeUITests.swift */; };
 		68D953242A7055F50096D15A /* HikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953232A7055F50096D15A /* HikeUITestsLaunchTests.swift */; };
+		68D953332A705BB70096D15A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953322A705BB70096D15A /* CardView.swift */; };
+		68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953352A705D2B0096D15A /* CustomBackgroundView.swift */; };
+		68D953392A7060A50096D15A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953382A7060A50096D15A /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		68D9531D2A7055F50096D15A /* HikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D953212A7055F50096D15A /* HikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeUITests.swift; sourceTree = "<group>"; };
 		68D953232A7055F50096D15A /* HikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68D953322A705BB70096D15A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		68D953352A705D2B0096D15A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		68D953382A7060A50096D15A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,10 @@
 		68D953042A7055F50096D15A /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				68D953372A7060950096D15A /* Utility */,
 				68D953052A7055F50096D15A /* HikeApp.swift */,
 				68D953072A7055F50096D15A /* ContentView.swift */,
+				68D953342A705D010096D15A /* Component */,
 				68D953092A7055F50096D15A /* Assets.xcassets */,
 				68D9530B2A7055F50096D15A /* Hike.entitlements */,
 				68D9530C2A7055F50096D15A /* Preview Content */,
@@ -127,6 +135,23 @@
 				68D953232A7055F50096D15A /* HikeUITestsLaunchTests.swift */,
 			);
 			path = HikeUITests;
+			sourceTree = "<group>";
+		};
+		68D953342A705D010096D15A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				68D953322A705BB70096D15A /* CardView.swift */,
+				68D953352A705D2B0096D15A /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		68D953372A7060950096D15A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				68D953382A7060A50096D15A /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D953082A7055F50096D15A /* ContentView.swift in Sources */,
+				68D953332A705BB70096D15A /* CardView.swift in Sources */,
 				68D953062A7055F50096D15A /* HikeApp.swift in Sources */,
+				68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */,
+				68D953392A7060A50096D15A /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
