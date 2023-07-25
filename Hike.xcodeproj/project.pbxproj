@@ -17,6 +17,7 @@
 		68D953332A705BB70096D15A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953322A705BB70096D15A /* CardView.swift */; };
 		68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953352A705D2B0096D15A /* CustomBackgroundView.swift */; };
 		68D953392A7060A50096D15A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953382A7060A50096D15A /* ColorExtension.swift */; };
+		68D9533B2A7071190096D15A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9533A2A7071190096D15A /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68D953322A705BB70096D15A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		68D953352A705D2B0096D15A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		68D953382A7060A50096D15A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		68D9533A2A7071190096D15A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,9 @@
 		68D953042A7055F50096D15A /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				68D953372A7060950096D15A /* Utility */,
 				68D953052A7055F50096D15A /* HikeApp.swift */,
 				68D953072A7055F50096D15A /* ContentView.swift */,
+				68D953372A7060950096D15A /* Utility */,
 				68D953342A705D010096D15A /* Component */,
 				68D953092A7055F50096D15A /* Assets.xcassets */,
 				68D9530B2A7055F50096D15A /* Hike.entitlements */,
@@ -142,6 +144,7 @@
 			children = (
 				68D953322A705BB70096D15A /* CardView.swift */,
 				68D953352A705D2B0096D15A /* CustomBackgroundView.swift */,
+				68D9533A2A7071190096D15A /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				68D953062A7055F50096D15A /* HikeApp.swift in Sources */,
 				68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */,
 				68D953392A7060A50096D15A /* ColorExtension.swift in Sources */,
+				68D9533B2A7071190096D15A /* CustomButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
