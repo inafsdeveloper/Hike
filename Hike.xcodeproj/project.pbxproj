@@ -18,6 +18,7 @@
 		68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953352A705D2B0096D15A /* CustomBackgroundView.swift */; };
 		68D953392A7060A50096D15A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953382A7060A50096D15A /* ColorExtension.swift */; };
 		68D9533B2A7071190096D15A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9533A2A7071190096D15A /* CustomButtonView.swift */; };
+		68D9533D2A70763C0096D15A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9533C2A70763C0096D15A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		68D953352A705D2B0096D15A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		68D953382A7060A50096D15A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		68D9533A2A7071190096D15A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		68D9533C2A70763C0096D15A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				68D953382A7060A50096D15A /* ColorExtension.swift */,
+				68D9533C2A70763C0096D15A /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				68D953332A705BB70096D15A /* CardView.swift in Sources */,
 				68D953062A7055F50096D15A /* HikeApp.swift in Sources */,
 				68D953362A705D2B0096D15A /* CustomBackgroundView.swift in Sources */,
+				68D9533D2A70763C0096D15A /* GradientButtonStyle.swift in Sources */,
 				68D953392A7060A50096D15A /* ColorExtension.swift in Sources */,
 				68D9533B2A7071190096D15A /* CustomButtonView.swift in Sources */,
 			);
