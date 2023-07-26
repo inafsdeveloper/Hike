@@ -70,7 +70,7 @@ struct SettingsView: View {
                     HStack(spacing: 12) {
                         ForEach(alternateAppIcons.indices, id:\.self) { item in
                             Button {
-                                print("Icon was pressed")
+                                print("Icon \(alternateAppIcons[item]) was pressed")
                             } label: {
                                 Image("\(alternateAppIcons[item])-Preview")
                                     .resizable()
